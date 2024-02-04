@@ -12,7 +12,7 @@ import { Formik, Form } from "formik"
 import { object, string } from "yup"
 // import { login } from "../hooks/useAuthCall"
 import useAuthCall from "../hooks/useAuthCall"
-
+import { Alert, AlertTitle } from "@mui/lab"
 const Login = () => {
   const { login } = useAuthCall()
 
@@ -33,6 +33,12 @@ const Login = () => {
 
   return (
     <Container maxWidth="lg">
+       <Alert severity="info">
+            <AlertTitle>You can Login; </AlertTitle>
+            <p>Logging in may take time due to issues with "render.com"</p>
+            <p>e-mail: admin@site.com,</p>
+            <p>password: aA*123456</p>
+        </Alert>
       <Grid
         container
         justifyContent="center"
