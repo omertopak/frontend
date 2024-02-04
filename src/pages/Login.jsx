@@ -35,7 +35,7 @@ const Login = () => {
     <Container maxWidth="lg">
        <Alert severity="info">
             <AlertTitle>You can Login; </AlertTitle>
-            <p>Logging in may take time due to issues with "render.com"</p>
+            <p>REMINDER: Logging in may take time due to issues with "render.com"</p>
             <p>e-mail: admin@site.com,</p>
             <p>password: aA*123456</p>
         </Alert>
